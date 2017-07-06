@@ -1,8 +1,3 @@
-# Install ContainerTools
-Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
-Set-PsRepository -Name PSGallery -InstallationPolicy Trusted
-Install-Module -Name ContainerTools -MinimumVersion $Env:ContainerToolsVersion -Confirm:$false
-
 # Configure IIS to log to a central directory
 Import-Module IISAdministration
 $section = Get-IISConfigSection -SectionPath 'system.applicationHost/log'
