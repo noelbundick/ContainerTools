@@ -1,3 +1,3 @@
 # ContainerTools
 
-Useful PowerShell scripts for running apps inside containers
+Useful PowerShell commands for running apps inside containers
